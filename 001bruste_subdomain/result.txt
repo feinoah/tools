@@ -1,0 +1,20 @@
+1.aquatone 一直不给我反馈，估计是使用了google的原因。
+2.gobuster和dnsbrute安装会报错，错误如下：
+gobuster:
+package golang.org/x/crypto/ssh/terminal: unrecognized import path "golang.org/x/crypto/ssh/terminal" (https fetch: Get https://golang.org/x/crypto/ssh/terminal?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+估计是墙的原因
+dnsbrute提示安装成功，但是找不到dnsbrute命令。
+3.ESD自己跑着跑着报错了。直接淘汰！
+4.GSDF正在跑。
+需要翻墙。
+5.subbrute一直在跑，用时比较长。
+6.brutedns出结果了
+两个文件域名（域名，cdn，ip）和ip段中存活的ip地址。
+7.subDomainsBrute出结果了。
+
+8.出来的就两个brutedns和subDomainsBrute
+前者共49个域名，标注出来了cdn，ip地址，以及ip段中存活的ip；
+后者共886个域名和ip地址。
+
+
+

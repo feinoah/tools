@@ -1,0 +1,34 @@
+domain,CDN,IP
+domain,CDN,IP
+domain,CDN,IP
+alpha.yunjiweidian.com,No,['30.250.11.135']
+fax.yunjiweidian.com,No,['30.250.11.135']
+food.yunjiweidian.com,No,['30.250.11.135']
+vpn2.yunjiweidian.com,No,['30.250.11.135']
+extranet.yunjiweidian.com,No,['30.250.11.135']
+py.yunjiweidian.com,No,['30.250.11.135']
+api.yunjiweidian.com,No,['101.37.224.24']
+monitor.yunjiweidian.com,No,['101.37.224.24']
+titan.yunjiweidian.com,No,['101.37.224.24']
+office.yunjiweidian.com,No,['42.159.233.91']
+mail.yunjiweidian.com,No,"['42.159.163.130', '42.159.163.194', '42.159.40.66', '42.159.40.2']"
+sip.yunjiweidian.com,Yes,['42.159.162.44']
+msoid.yunjiweidian.com,No,['42.159.160.36']
+pic.yunjiweidian.com,No,['120.55.238.159']
+auth.yunjiweidian.com,No,['120.55.238.159']
+m.yunjiweidian.com,No,['120.55.238.159']
+oa.yunjiweidian.com,No,['116.62.118.202']
+data.yunjiweidian.com,No,['120.55.238.159']
+sso.yunjiweidian.com,No,"['114.55.188.141', '120.55.149.85']"
+report.yunjiweidian.com,No,['114.55.36.227']
+book.yunjiweidian.com,No,['115.238.94.231']
+st.yunjiweidian.com,No,['101.37.106.50']
+t.yunjiweidian.com,No,['120.55.238.159']
+autodiscover.yunjiweidian.com,No,"['42.159.33.168', '42.159.161.152', '42.159.33.136', '42.159.161.184']"
+dj.yunjiweidian.com,No,['120.27.216.90']
+www.yunjiweidian.com,No,['47.98.38.16']
+lyncdiscover.yunjiweidian.com,Yes,['42.159.34.45']
+static.yunjiweidian.com,Yes,"['119.84.3.114', '119.84.3.111', '119.84.3.26', '119.84.3.110', '119.84.3.23', '119.84.3.115', '119.84.3.112', '119.84.3.113']"
+p.yunjiweidian.com,No,['180.97.162.205']
+a.yunjiweidian.com,No,['120.55.238.159']
+image.yunjiweidian.com,Yes,"['113.215.225.31', '113.215.225.32', '113.215.225.29', '113.215.225.97', '113.215.225.28', '113.215.225.96', '113.215.225.33', '113.215.225.30']"

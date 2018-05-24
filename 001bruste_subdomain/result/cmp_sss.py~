@@ -1,9 +1,17 @@
 import os
 import csv
 
+global subdomain3_path
+subdomain3_path = "./subdomain3/"
+global subDomainsBrute_path
+subDomainsBrute_path = './subDomainsBrute/'
+global result_path
+result_path = './result/'
+
 if __name__ == "__main__":
+    dns = "yunjiweidian.com"
     subdomain = dict()
-    csf = csv.reader(open('./subdomain3_ctrip.com/ctrip.com.csv', 'r'))
+    csf = csv.reader(open(subdomain3_path+dns+'/deal_'+dns+'.csv', 'r'))
     count = 0
     subdomain3 = dict()
     for  row in csf:
@@ -11,16 +19,16 @@ if __name__ == "__main__":
         if row[0] == "domain":
             continue
         count += 1
-        subdomain3[row[0]] = row[2].replace("[", "").replace("]", "")
+        subdomain3[row[0]] = row[2].replace("'", "").replace("[", "").replace("]", "")
     subdomain3ip = dict()
     count2 = 0
-    csf2 = csv.reader(open("./subdomain3_ctrip.com/deal_ctrip.com.csv", "r"))
+    csf2 = csv.reader(open(subdomain3_path+dns+"/"+dns+".csv", "r"))
     for row in csf2:
         if row[0] == 'IP':
             continue
         count2 += 1
         subdomain3ip[row[0]] = row[2]
-    csf3 = open('./subDomainsBrute/ctrip.com.txt')
+    csf3 = open(subDomainsBrute_path+dns+'.txt')
     count3 = 0
     subDomainsBrute = dict()
     for rows in csf3:
@@ -40,10 +48,10 @@ if __name__ == "__main__":
     for key in subdomain:
         print(key + "   "+ subdomain[key])
 
-    domain_csv = csv.writer(open("./result/domain.csv", "w"))
+    domain_csv = csv.writer(open(result_path+"yunjiweidian.csv", "w"))
     for key in subdomain.keys():
         domain_csv.writerow([key, subdomain[key]])
-    ips_csv = csv.writer(open("./result/ips.csv", "w"))
+    ips_csv = csv.writer(open(result_path+"yunjiweidian_ips.csv", "w"))
     for key in subdomain3ip.keys():
         ips_csv.writerow([key, subdomain3ip[key]])
 

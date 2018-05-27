@@ -1,0 +1,4 @@
+[
+{"target":"http://www.hengtiansoft.com","http_status":200,"request_config":{"headers":{"User-Agent":"WhatWeb/0.4.9"}},"plugins":{"Cookies":{"string":["ppqtrans_cookie_test"]},"x-pingback":{"string":["http://www.hengtiansoft.com/xmlrpc.php"]},"JQuery":{},"qTranslate":{},"X-UA-Compatible":{"string":["IE=edge"]},"Script":{"string":["text/javascript"]},"Title":{"string":["Hengtian Website|恒天官网"]},"OpenSSL":{"version":["1.0.2d"]},"PHP":{"version":["5.5.30"]},"Email":{"string":["info@hengtianservices.com"]},"WordPress":{},"HTTPServer":{"os":["Windows (32 bit)"],"string":["Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.30"]},"HTML5":{},"X-Powered-By":{"string":["PHP/5.5.30"]},"Via-Proxy":{"string":["1.1 www.hengtiansoft.com"]},"Apache":{"version":["2.4.17"]},"IP":{"string":["122.225.227.162"]},"Country":{"string":["CHINA"],"module":["CN"]},"Google-Analytics":{"version":["Universal"],"account":["UA-24738757-1"]}}},
+{}
+]

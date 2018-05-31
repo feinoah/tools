@@ -1,0 +1,8 @@
+site: [dns] intitle:index.of
+site: [dns] ext:xml|ext:conf|ext:cnf|ext:inf|ext:rdp|ext:cfg|ext:txt|ext:ora|ext:ini
+site: [dns] ext:sql|ext:dbf|ext:mdb
+site: [dns] ext:log
+site: [dns] ext:bkf|ext:bkp|ext:bak|ext:old|ext:backup
+site: [dns] intext:" sql syntax near"|intext:" syntax error has occured"|intext:" incorrect syntax near"|intext:" unexpected end of SQL command"|intext:" Warning:mysql_connect()"|intext:" Warning:mysql_query("|intext:" Warning:pg_connect()"
+site: [dns] ext:doc|ext:docx|ext:odt|ext:pdf|ext:rtf|ext:sxw|ext:pww|ext:pptx|ext:pps|site: [dns] intitle:phpinfo "published by the PHP Group"
+site: [dns] intitle:phpinfo "published by the PHP Group"

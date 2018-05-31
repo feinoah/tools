@@ -1,0 +1,16 @@
+1.dir list:
+site: [dns] intitle:index.of
+2.configure file let out
+site: [dns] ext:xml|ext:conf|ext:cnf|ext:inf|ext:rdp|ext:cfg|ext:txt|ext:ora|ext:ini
+3.db file let out
+site: [dns] ext:sql|ext:dbf|ext:mdb
+4.log file let out 
+site: [dns] ext:log
+5.back file and history file
+site: [dns] ext:bkf|ext:bkp|ext:bak|ext:old|ext:backup
+6.sql error
+site: [dns] intext:" sql syntax near"|intext:" syntax error has occured"|intext:" incorrect syntax near"|intext:" unexpected end of SQL command"|intext:" Warning:mysql_connect()"|intext:" Warning:mysql_query("|intext:" Warning:pg_connect()"
+7.public file
+site: [dns] ext:doc|ext:docx|ext:odt|ext:pdf|ext:rtf|ext:sxw|ext:pww|ext:pptx|ext:pps|site: [dns] intitle:phpinfo "published by the PHP Group"
+8.phpinfo()
+site: [dns] intitle:phpinfo "published by the PHP Group"

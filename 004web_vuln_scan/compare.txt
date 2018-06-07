@@ -1,0 +1,3 @@
+w3af can serve as a web service
+http://docs.w3af.org/en/latest/api/index.html
+

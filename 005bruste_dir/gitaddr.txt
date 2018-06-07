@@ -1,4 +1,6 @@
 https://sourceforge.net/projects/dirb/files/
 https://sourceforge.net/projects/dirbuster/files/?source=navbar
+git@github.com:poerschke/Uniscan.git
+git@github.com:xmendez/wfuzz.git
 
 
